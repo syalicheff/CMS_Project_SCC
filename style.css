@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish&display=swap');
+/*Theme Name: CMS_Projet
+Text Domain: CMS_Projet
+Version: 1.9
+Tested up to: 5.9
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: theme CMS pour projet à l'esgi
+Author URI: https://wordpress.org/
+Theme URI: https://wordpress.org/themes/twentytwenty/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+
+html {
+  --body-bg: #FFF;
+  --text-color: #000;
+  --main-color: #3F51B5;
+  --light-grey: #F0F0F0;
+}
+
+body {
+  font-family: "Source Serif Pro", serif;
+  background-color: var(--body-bg);
+  color: var(--text-color);
+}
+
+body.dark {
+  --body-bg: #000;
+  --text-color: #FFF;
+}
+#errorPage{
+  font-size: x-large;
+}
+
+.containerError{
+  background-color: #050A3A;
+  width : 100%;
+  color : white;
+}
+
+
