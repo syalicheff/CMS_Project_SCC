@@ -14,7 +14,7 @@
 
 
 <nav class="hamburger-menu">
-	<img width="117" height="36" src=<?$images_path."/cropped-Logo.png"?> id="menu-logo" class="custom-logo" alt="logo">
+	<img width="117" height="36" src="../../assets/images/Logo-light.png" id="menu-logo" class="custom-logo" alt="logo">
 	<div class="button_container" id="toggle">
 		<span class="top"></span>
 		<span class="bottom"></span>

@@ -32,6 +32,10 @@ body {
   background-color: var(--body-bg);
   color: var(--text-color);
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 body.dark {
   --body-bg: #000;
@@ -55,6 +59,8 @@ body.dark {
   font-size: 84px;
   line-height: 105px;
   color: #050A3A;
+  margin-top: 1em;
+  margin-left: 3em;
 
 }
 
@@ -84,3 +90,54 @@ letter-spacing: 3px;
 color: #050A3A;
 }
 
+.section--text{
+
+  margin-left: 3em;
+}
+.wrapper{
+display: flex;
+flex-direction: row;
+margin: 130px 0px;
+}
+
+.services--page-title{
+
+  font-family: 'Mulish';
+  font-style: normal;
+  color: #050A3A;
+  margin-top: 1em;
+  margin-left: 3em;
+
+}
+.section--text--paragraph{
+
+font-family: 'Muli';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 42px;
+width: 900px;
+/* or 162% */
+color: #8A8A8A;
+}
+.section--text--title{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 63px;
+  line-height: 79px;
+  letter-spacing: 3px;
+  color: #050A3A;
+}
+.section--banneer{
+  margin-top: 130px;
+}
+.gap{
+  margin: 130px 0px;
+}
+.wrapper--evenly{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
